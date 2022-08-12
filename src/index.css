@@ -1,13 +1,34 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: hsla(148, 89%, 78%, 1);
+
+	background: linear-gradient(
+		90deg,
+		hsla(148, 89%, 78%, 1) 0%,
+		hsla(210, 81%, 22%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(148, 89%, 78%, 1) 0%,
+		hsla(210, 81%, 22%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(148, 89%, 78%, 1) 0%,
+		hsla(210, 81%, 22%, 1) 100%
+	);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#95F9C3", endColorstr="#0B3866", GradientType=1 );
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
