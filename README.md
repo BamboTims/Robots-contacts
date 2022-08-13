@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Robots-contacts
+  Using react to fetch and display robot users.\
+  Images from robohash.  
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
